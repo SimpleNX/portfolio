@@ -1,0 +1,53 @@
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 200px;
+    gap : 40px;
+}
+
+.info-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+    gap : 70px;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bolder;
+    color : #1f2937;
+}
+
+.box{
+    box-sizing: border-box;
+    width : 150px;
+    height: 150px;
+    background-color: white;
+    border : 3px solid #3882f6;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width : 150px;
+    gap : 10px;
+}
+
+.box-text{
+    text-align: center;
+    font-weight: 400;
+    color : black;
+}
+
+.box-text a{
+    color : black;
+    text-decoration: none;
+}
